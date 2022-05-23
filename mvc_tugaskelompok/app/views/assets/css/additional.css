@@ -1,0 +1,142 @@
+body, nav {
+    color: #0F3057 !important;
+}
+
+nav {
+    background-color: #e5e5e5;
+}
+
+body {
+    background-color: #c7e7f3;
+}
+
+nav .fw-bold {
+    margin: 0px 0px;
+}
+
+nav .fw-bold:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-badge {
+    font-size: .6rem;
+    font-weight: 300;
+    padding: 2px 4px;
+    position: absolute;
+    left: 40px;
+    top: 9px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.15em 0.35em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.medium1 {
+    font-weight: 600;
+}
+
+.medium2 {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #0F3057;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button2, input {
+    /* border-color: #0F3057; */
+    background-color: #0F3057;
+    color: white;
+}
+
+.highlight {
+    padding: 16px 32px;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    background-color: #008891;
+    border-color: #008891;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #008891;
+    color: white;
+}
+
+.zoom {
+    transition: transform 0.8s;
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.article {
+    margin: 16px 32px;
+}
+
+footer {
+    background-color: #0F3057;
+}
+
+@media screen and (min-width: 400px){
+    .mod-img {
+        margin: 100px auto;
+        display: block;
+        width: 500px;
+    }
+
+    .fit-img {
+        width: 100%;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .col3 {
+        width: 80%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .mod-img {
+        width: 95%;
+        margin: 25px auto;
+    }
+    .col1 {
+        width: 54%;
+    }
+    .col2 {
+        width: 46%;
+    }
+    .col3 {
+        width: 33%;
+    }
+}
